@@ -13,7 +13,7 @@ app.use('/users', usersRouter)
 app.use('/auth', authRouter)
 
 app.get('/', (req, res) => {
-  res.send('Welcome to my testing server!')
+  res.send('Welcome to my testing again server!')
 })
 
 app.listen(port, () => {
