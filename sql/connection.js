@@ -7,9 +7,9 @@ class Connection {
 
       const config = {
         connectionLimit: 100,
-        host: 'localhost',
+        host: '35.202.106.122',
         user: 'root',
-        password: 'password',
+        password: 'testing',
         database: 'admin'
       }
 
@@ -30,3 +30,4 @@ class Connection {
 const instance = new Connection()
 
 module.exports = instance;
+
